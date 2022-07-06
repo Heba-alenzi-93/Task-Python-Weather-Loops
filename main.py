@@ -66,13 +66,10 @@ hottest_days(weather_list,80)
 # hint: you can combine
 #       all previous functions
 def print_hottest_days(temperatures, threshhold):
-    result =[]
-    result = to_celsius(temperatures)
-    hottest_days(result,threshhold)
+  
+   hottest_days(to_celsius(temperatures),threshhold)
 
     
-    
-
     
 
 print_hottest_days(weather_list,30)
